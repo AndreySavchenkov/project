@@ -1,14 +1,27 @@
 header.header
-    .header__social
-        
-        include ./social-icons.pug
+    nav.header__nav
+        ul.header__nav__items
+            li.header__nav-item
+                a(href="#") logo
+            li.header__nav-item
+                a(href="#") Home
+            li.header__nav-item
+                a(href="#") Destination
+            li.header__nav-item
+                a(href="#") Near me
+            li.header__nav-item
+                a(href="#") Events
+            li.header__nav-item
+                a(href="#") Blog
+            li.header__nav-item
+                a(href="#") Gallery
+            li.header__nav-item
+                a(href="#") About
+            li.header__nav-item
+                a(href="#") Contact us
 
-        
-
-    .header__logo
-        h1.logo Hipsum Blog
-    .header__search
-        .header__search-icon
-            img(src="./img/icons/search.svg", alt="Search", width="26")
-        .header__search-subscribe
-            button.button-rounded Subscribe
+        ul.header__nav__buttons
+            li.header__nav-item
+                a(href="#") Sign up
+            li.header__nav-item
+                a(href="#") Sign in
